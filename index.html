@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Tesla</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <button class="btn show-btn" id="show-btn">Show Modal</button>
+        <!-- Modal -->
+        <div class="modal hidden" id="modal">
+            <!-- Modal HEADER -->
+            <div class="modal-header">
+                <h3>I love Tesla</h3>
+                <button class="btn close-btn" id="close-btn">
+            <i class="fas fa-close"></i>
+          </button>
+            </div>
+            <!-- Modal BODY -->
+            <div class="modal-body">
+                <h2 class="modal-title">Tesla Model X</h2>
+                <p>
+                    &ensp; &emsp; The Model X has been a cornerstone of the Tesla lineup for years now, and the 2024 model remains an attention-grabbing electric SUV with unusual rear doors and lots of available technology. There are two models on offer, with a dual-motor
+                    Long Range starting off the range with 670 horsepower and 335 miles of estimated driving range.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Overlay -->
+    <div class="overlay hidden" id="overlay"></div>
+    <!-- JavaScript -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
